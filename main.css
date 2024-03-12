@@ -1,0 +1,103 @@
+body {
+    background-color: aqua;
+}
+
+/* Navbar */
+.navbar.navbar-expand-lg.navbar-dark {
+  background-color: black !important;
+}
+  
+.navbar-brand {
+  font-size: 24px;
+  margin-left: 20px;
+}
+  
+.navbar-nav .nav-link {
+  font-size: 18px;
+  color: white;
+  margin-right: 30px; 
+}
+  
+/* Navbar Fixed Top */
+.navbar-fixed-top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; 
+}
+
+/* Main Splash image for the index */
+.home-bg {
+  background-image: url('images/GYM_BG.jpg'); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+  
+.welcome {
+  text-align: center;
+  padding-top: 10%; 
+}
+.welcome-large-logo {
+  max-width: 100%;
+  height: auto;
+  size: 50%;
+}
+  
+/* About Section */
+.about-section {
+  padding: 2% 0;
+  margin-top: 5%; 
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2%; 
+  color: black;
+  font-size: 20px;
+}
+
+.about-item {
+  flex: 0 0 30%; 
+  text-align: center;
+}
+
+.about-item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 40%;
+}
+
+/* Social Section */
+.social-section {
+  padding: 5%;
+  margin-top: 0%; 
+  color: black;
+}
+
+.social-header {
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.social-list {
+    list-style: none; /* Remove bullet points */
+    text-align: center; /* Center justify the list */
+}
+
+.sign-in-up-form {
+  margin-right: 20px;
+  margin-top: 20%;
+  color: white;
+}
+
+.sign-in-up-bg{
+  background-color: black;
+}
+.img-fluid {
+  max-width: 35%;
+  margin-left: 33%;
+  margin-bottom: 5%;
+}
